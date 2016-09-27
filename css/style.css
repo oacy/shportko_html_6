@@ -1,0 +1,560 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+
+}
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+
+.header{
+    display: inline-block;
+}
+
+.phones img{
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+.phones span{
+    font-family: Arial;
+    font-size: 18px;
+    height: 27px;
+    line-height: 27px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 3px;
+    letter-spacing: 0.03em;
+}
+
+.wrapper{
+    width: 1000px;
+    height: 1310px;
+    padding-top: 17px;
+    padding-left: 45px;
+}
+.login-form {
+    background: linear-gradient(to top, #0d3458, #1f6685);
+    width: 488px;
+    height: 26px;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding-left: 7px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 4px gray;
+    float: left;
+}
+.login-form img{
+    float: left;
+    margin-top: 6px;
+}
+.login-form span{
+    color: white;
+}
+.login, .password{
+    height: 16px;
+    width: 114px;
+    margin: 5px 3px 0px 4px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    color: #97a2a6;
+}
+.login-form a{
+    text-decoration: none;
+    color: white;
+    font-family: "Lucida Sans";
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 0px;
+}
+.login-form a:hover{
+    color: #bfbfbf;
+    text-decoration: underline;
+}
+.menu-header{
+    width: 73px;
+    height: 18px;
+    border: 2px solid gray;
+    float: right;
+    margin-top: 1px;
+    margin-right: 97px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px grey;
+
+}
+.home, .map, .letter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.home {background: url("../img/home.png") no-repeat 6px 1px}
+.map {background: url("../img/map.png") no-repeat 3px 3px}
+.letter {background: url("../img/letter.png") no-repeat 2px 4px}
+.center-image{
+    float: left;
+    width: 909px;
+    height: 237px;
+    background-image: url("../img/pic.jpg");
+    margin: 8px 0 3px 0;
+}
+.center-image a{
+    display: block;
+    margin: 100px 0 0 2px;
+    width: 266px;
+    height: 70px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.main-menu ul{
+    display: block;
+    width: 776px;
+    height: 34px;
+    padding-left: 135px;
+    background: url("../img/background_menu.jpg") repeat-x;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px grey;
+}
+.main-menu li{
+    margin-top: 5px;
+    float: left;
+    color: white;
+    /*width: 99px;*/
+    display: block;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+    line-height: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.main-menu a{
+    color: #b1bcc0;
+}
+.main-menu li:hover{
+    background-color: #164e70;
+}
+.main-menu a:hover{
+    color: white;
+}
+.main-menu img{
+    margin-left: 68px;
+    margin-top: 8px;
+}
+/* Поиск по автомобилю */
+.auto{
+    margin-top: 12px;
+    margin-left: 4px;
+    width: 413px;
+    height: 133px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
+}
+.auto .disk {
+    font-family: "Arial Black";
+    font-size: 10px;
+    color: #154468;
+    float: left;
+    margin: 4px 0 0 20px;
+}
+.auto .searchauto {
+    font-family: "Arial Black";
+    font-size: 12px;
+    color: #154468;
+    margin: 0px 10px 0 70px;
+}
+.auto .shina {
+    font-family: "Arial Black";
+    font-size: 10px;
+    color: #154468;
+    float: right;
+    margin: 3px 23px 0 0;
+}
+.f1{
+    font-family: Arial;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+    line-height: 10px;
+}
+.f2{
+    font-family: Arial;
+    font-size: 8px;
+    color: #77858b;
+}
+.auto .column1, .column2{
+    margin: 5px 9px 0 17px;
+    height: 88px;
+    width: 178px;
+    float: left;
+}
+.auto .marka select {
+    width: 100px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.model{
+    margin-top: 5px;
+}
+.auto .model select {
+    width: 100px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.auto .yearv select{
+    width: 55px;
+    float: right;
+    margin-right: 45px;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.auto .kompl select{
+    width: 100px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.searchbutton{
+    display: block;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    font-style: italic;
+    color: #154467;
+    text-decoration: underline;
+    margin-right: 22px;
+}
+/* Поиск шин */
+.shins{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 191px;
+    height: 133px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
+}
+.shins .searchshins {
+    font-family: "Arial Black";
+    font-size: 12px;
+    color: #154468;
+    margin: 0px 10px 0 10px;
+}
+.shins .cont {
+    margin: 6px 0px 0 13px;
+    height: 80px;
+    width: 170px;
+    float: left;
+}
+.shins .razmer select {
+    margin-left: 5px;
+    width: 50px;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.shins .r {
+    margin: 4px 0 0 33px;
+}
+.shins .r select {
+    margin-left: 2px;
+    width: 50px;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.shins .sezon{
+    margin: 6px 0 0 2px;
+}
+.chdiv {
+    height: 14px;
+    float: left;
+    width: 90px;
+    margin-left: 12px;
+}
+.chdiv span, input{
+    float: left;
+    display: block;
+    margin: 2px 0 0 1px;
+}
+.searchbutton2{
+    display: block;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+    font-style: italic;
+    color: #154467;
+    text-decoration: underline;
+    margin-right: 10px;
+}
+/* Поиск дисков */
+.disks{
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 265px;
+    height: 133px;
+    float: left;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
+}
+.disks .searchisk {
+    font-family: "Arial Black";
+    font-size: 13px;
+    color: #154468;
+    margin: 2px 10px 0 8px;
+}
+.disks .column1{
+    margin: 3px 9px 0 15px;
+    height: 88px;
+    width: 149px;
+    float: left;
+}
+.disks .ddisk select {
+    width: 59px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.disks .krepotv{
+    margin-top: 3px;
+}
+.disks .krepotv select {
+    width: 50px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+    margin: 11px 9px 0 0;
+}
+.disks .diametr select {
+    width: 59px;
+    float: right;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+    margin: 10px 0 0 0;
+}
+.disks .column2{
+    margin: -15px 0 0 0px;
+    height: 106px;
+    width: 75px;
+    float: left;
+    border-left: 1px grey solid;
+    padding-left: 12px;
+}
+.dco span{
+    line-height: 0.9em;
+    margin-top: 4px;
+}
+.dco select{
+    width: 58px;
+    height: 17px;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.et span{
+    margin-top: 7px;
+}
+.et select{
+    width: 58px;
+    height: 17px;
+    border-top: 2px solid #979797;
+    border-left: 2px solid #979797;
+}
+.middle{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+}
+.left-side{
+    float: left;
+    width: 190px;
+    height: auto;
+    min-height: 300px;
+}
+.side-menu-title {
+    line-height: 24px;
+    width: 154px;
+    margin: 3px 0 12px 0;
+    padding: 0px 0 0 25px;
+    background: url("../img/menu-title-back.png") no-repeat 1px 1px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    border: 2px solid #79878d;
+    border-radius: 15px;
+}
+.side-block-title{
+    line-height: 24px;
+    width: 119px;
+    margin: 5px 0 0 0;
+    padding: 1px 0 0 30px;
+    background: url("../img/menu-item-title-back.png") no-repeat 3px 0px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    border: 2px solid #79878d;
+    border-radius: 15px;
+}
+.side-menu-item{
+    display: block;
+    width: 130px;
+    line-height: 14px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #465961;
+    background: url("../img/marker.png") no-repeat;
+    margin: 10px 0 0 35px;
+    padding: 0px 0 0 11px;
+}
+.side-menu-item:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    background: url("../img/marker-hover.png") no-repeat;
+    font-style: oblique;
+}
+.center-content {
+    float: left;
+    width: 526px;
+    height: auto;
+    min-height: 628px;
+    background: linear-gradient(to top, #93a7b0, #e5e7e8);
+}
+.middle-item{
+    float: left;
+    width: 137px;
+    height: 183px;
+    text-align: center;
+    margin: 13px 6px 7px 24px;
+}
+.middle-item-company{
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+    color: #206988;
+    line-height: 1.15em;
+
+}
+.middle-item-model{
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #1f2528;
+}
+.middle-item-image1 {
+    margin: 0 auto;
+    background: url("../img/goodyear.jpg") no-repeat 47% 60% white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 137px;
+    height: 127px;
+}
+.middle-item-image2{
+    margin: 0 auto;
+    background: url("../img/nokian.jpg") no-repeat 49% 48% white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 137px;
+    height: 127px;
+}
+.middle-item-image3{
+    margin: 0 auto;
+    background: url("../img/hankook.jpg") no-repeat 50% 50% white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 137px;
+    height: 127px;
+}
+.middle-item-price{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-family: Arial;
+    color: #114165;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+.uan{
+    font-size: 12px;
+}
+.right-side{
+    float: left;
+    width: 190px;
+    height: auto;
+    min-height: 300px;
+    margin-left: 12px;
+}
+.side-block-title-right{
+    line-height: 24px;
+    width: 102px;
+    margin: 0 0 0 13px;
+    padding: 0 0 0 30px;
+    background: url("../img/menu-item-title-back.png") no-repeat 3px 0px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    border: 2px solid #79878d;
+    border-radius: 15px;
+}
+.checkbox-menu-item{
+    font-family: "Lucida Sans Unicode";
+    font-size: 13px;
+    color: #465961;
+    margin: 8px 0 13px 22px;
+}
+.checkbox-menu-item span{
+    margin-left: 10px;
+}
+.buttonchoice{
+    line-height: 24px;
+    width: 82px;
+    border: 1px solid gray;
+    margin: 9px 22px;
+    text-align: center;
+    color: #e5e9ea;
+    border-radius: 12px;
+    background: linear-gradient(to top, #0d365a, #1f6787);
+    font-family: Arial;
+    font-size: 12px;
+    box-shadow: 1px 2px 5px grey;
+}
+.cleaner{
+    clear: both;
+}
+.tire-companies{
+    height: 48px;
+    width: 909px;
+    text-align: center;
+    padding-top: 37px;
+    margin-bottom: 4px;
+}
+.footer{
+    height: 100px;
+    width: 909px;
+    text-align: center;
+    background-color: #213a4d;
+    float: left;
+}
+.footer li{
+    margin: 12px 0 15px 0;
+    display: inline-block;
+}
+.footer a, li{
+    color: #bec6c9;
+    font-family: Arial;
+    font-size: 13px;
+}
+.footer a:hover{
+    color: #52abcb;
+}
+.footer p{
+    font-family: Arial;
+    font-size: 11px;
+    color: #7f4740;
+}
